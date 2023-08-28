@@ -13,39 +13,28 @@
 **02_Results:** storing results produced from the python codes, including some CSV files that store the comments of youtube videos, word cloud image, time-series figure, and interactive plotly plot (in HTML format). 
 
 **Installation Required:**
-
 Python3
-
 import itertools 
-
 from youtube_comment_downloader import *
-
 import re
-
 import pandas as pd
-
 import numpy as np
-
 import matplotlib.pyplot as plt
-
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
 
 #NLP packages
 from textblob import TextBlob
-
 from nltk.corpus import stopwords
-
 from wordcloud import WordCloud, STOPWORDS
-
 import spacy
-
 import nltk
 
 
 **Data visualization:**
 
 1. Word cloud image
+   
 ![image](https://github.com/YingtongAamandaWu/Youtube_comments_sentiment_analysis_NLP/assets/80353259/ff5eb654-e850-4786-978d-423b1923f131)
 
 2. Time-series visualization of Youtube Comment Polarity 
