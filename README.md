@@ -45,6 +45,8 @@ import nltk
 
 **Data visualization:**
 
+1. Word cloud image
 ![image](https://github.com/YingtongAamandaWu/Youtube_comments_sentiment_analysis_NLP/assets/80353259/ff5eb654-e850-4786-978d-423b1923f131)
 
+2. Time-series visualization of Youtube Comment Polarity 
 ![image](https://github.com/YingtongAamandaWu/Youtube_comments_sentiment_analysis_NLP/assets/80353259/fe4f7434-6782-4a70-8ff0-48274ad1f857)
