@@ -7,8 +7,10 @@
 
 
 **Repository structure:**
-01_Codes: storing jupyter notebook of python codes. "Youtube_comment_sentiment_analysis_single_video" analyzes one YouTube video using sentiment analysis and produces word-cloud image of the comments from that video. "Youtube_comment_sentiment_analysis_multiple_video" analyzes all 300+ videos by using the loop function, it then produces an interactive Plotly plot to help visualize and track changes in comment polarity across the publication history of the Youtube channel. 
 
+**01_Codes:** storing jupyter notebook of python codes. "Youtube_comment_sentiment_analysis_single_video" analyzes one YouTube video using sentiment analysis and produces word-cloud image of the comments from that video. "Youtube_comment_sentiment_analysis_multiple_video" analyzes all 300+ videos by using the loop function, it then produces an interactive Plotly plot to help visualize and track changes in comment polarity across the publication history of the Youtube channel. 
+
+**02_Results:** storing results produced from the python codes, including some CSV files that store the comments of youtube videos, word cloud image, time-series figure, and interactive plotly plot (in HTML format). 
 
 **Installation Required:**
 
@@ -42,6 +44,7 @@ import nltk
 
 
 **Data visualization:**
+
 ![image](https://github.com/YingtongAamandaWu/Youtube_comments_sentiment_analysis_NLP/assets/80353259/ff5eb654-e850-4786-978d-423b1923f131)
 
 ![image](https://github.com/YingtongAamandaWu/Youtube_comments_sentiment_analysis_NLP/assets/80353259/fe4f7434-6782-4a70-8ff0-48274ad1f857)
